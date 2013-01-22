@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CLS_LOG(@"&lt;##&gt;");</string>
+	<string>CLS_LOG(@"&lt;#fmt#&gt;", &lt;#args#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F7A56A3F-E8BF-492D-AC3A-04B7FB21956D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Logging to use with Crashlytics</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>CLS_LOG</string>
 	<key>IDECodeSnippetUserSnippet</key>
