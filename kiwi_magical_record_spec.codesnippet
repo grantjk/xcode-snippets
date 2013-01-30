@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>spec</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+#import &lt;#Class Header#&gt;
+
+SPEC_BEGIN(&lt;#Class name#&gt;)
+
+beforeEach(^{
+    [MagicalRecord setupCoreDataStackWithInMemoryStore];
+});
+afterEach(^{
+    [MagicalRecord cleanUp];
+});
+
+SPEC_END</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88B69AA1-AC3C-4779-97DA-3D009CB76942</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>generic layout for kiwi spec</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>KiwiSpec</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
