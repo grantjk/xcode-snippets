@@ -9,15 +9,12 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-		self = [super init];
-		if (!self) {
-		  return nil;
-		}
-		
-		&lt;#initializations#&gt;
-		
-		return self;</string>
+	<string>self = [super init];
+	if (!self) {
+	  return nil;
+	}
+
+return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FB663E32-6D3C-40E9-BD9D-B903B61E14D6</string>
 	<key>IDECodeSnippetLanguage</key>
