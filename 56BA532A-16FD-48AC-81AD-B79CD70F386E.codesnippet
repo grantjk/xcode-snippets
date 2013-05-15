@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>blockspec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-	if (!self) {
-	  return nil;
-	}
-
-return self;</string>
+	<string>        it(@"&lt;#description#&gt;", ^{
+            __block BOOL blockCalled = NO;
+            &lt;#block#&gt;
+            [[expectFutureValue(theValue(blockCalled)) shouldEventually] beTrue];
+        });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FB663E32-6D3C-40E9-BD9D-B903B61E14D6</string>
+	<string>56BA532A-16FD-48AC-81AD-B79CD70F386E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Standard init snippet</string>
+	<string>Kiwi spec to ensure block is called</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>blockSpec</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
