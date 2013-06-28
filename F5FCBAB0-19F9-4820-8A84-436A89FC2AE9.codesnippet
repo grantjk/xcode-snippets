@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addconstraints</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    format = [NSString stringWithFormat:@"&lt;#format#&gt;", &lt;#vars#&gt;];
+    constraints = [NSLayoutConstraint constraintsWithVisualFormat:format options:&lt;#options#&gt; metrics:0 views:views];
+    [self.contentView addConstraints:constraints];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F5FCBAB0-19F9-4820-8A84-436A89FC2AE9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>quick way to set up adding constraints</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewCell addConstraints</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
