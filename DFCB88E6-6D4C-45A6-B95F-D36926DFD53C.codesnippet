@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>updateconstraints</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)updateConstraints {
+    [super updateConstraints];
+    
+    NSString *format;
+    NSArray *constraints;
+    NSDictionary *views = NSDictionaryOfVariableBindings(&lt;#views#&gt;);
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DFCB88E6-6D4C-45A6-B95F-D36926DFD53C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>template for the update constratints method for a view</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Update Constraints</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
