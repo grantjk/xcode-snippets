@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>observe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Observation
+
+- (NSArray *)observedKeyPaths {
+    return &lt;#arrayOfKeyPaths#&gt;;
+}
+
+- (void)startObservingObject:(id)object {
+    for (NSString *keyPath in [self observedKeyPaths]) {
+        [object addObserver:self forKeyPath:keyPath options:NSKeyValueObservingOptionNew context:NULL];
+    }
+}
+
+- (void)stopObservingObject:(id)object {
+    for (NSString *keyPath in [self observedKeyPaths]) {
+        [object removeObserver:self forKeyPath:keyPath];
+    }
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    if ([keyPath isEqualToString:&lt;#(NSString *)#&gt;]) {
+        &lt;#statements#&gt;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>79216A65-48EB-4967-9E04-64C1BCCE316D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A simple KVO strategy for simple views</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>KVO</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
