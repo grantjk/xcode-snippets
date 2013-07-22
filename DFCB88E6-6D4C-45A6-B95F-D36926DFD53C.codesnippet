@@ -12,9 +12,11 @@
 	<string>- (void)updateConstraints {
     [super updateConstraints];
     
+    NSNumber *&lt;#metric1#&gt; = @(&lt;#metric1#&gt;);
     NSString *format;
     NSArray *constraints;
     NSDictionary *views = NSDictionaryOfVariableBindings(&lt;#views#&gt;);
+    NSDictionary *metrics = NSDictionaryOfVariableBindings(&lt;#NSNumber#&gt;);
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

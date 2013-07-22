@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    format = [NSString stringWithFormat:@"&lt;#format#&gt;", &lt;#vars#&gt;];
-    constraints = [NSLayoutConstraint constraintsWithVisualFormat:format options:&lt;#options#&gt; metrics:0 views:views];
+	<string>    format = @"&lt;#format#&gt;";
+    constraints = [NSLayoutConstraint constraintsWithVisualFormat:format options:&lt;#options#&gt; metrics:metrics views:views];
     [self.contentView addConstraints:constraints];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F5FCBAB0-19F9-4820-8A84-436A89FC2AE9</string>
