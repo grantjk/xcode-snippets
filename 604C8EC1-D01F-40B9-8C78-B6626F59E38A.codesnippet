@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>localized</string>
+	<string>navinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(@"&lt;#key#&gt;", @"&lt;#comment#&gt;")</string>
+	<string>UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:&lt;#(UIViewController *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6AEE2C1D-7242-442D-9620-058DB7899FE8</string>
+	<string>604C8EC1-D01F-40B9-8C78-B6626F59E38A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLocalizedString</string>
+	<string>UINavigationController init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

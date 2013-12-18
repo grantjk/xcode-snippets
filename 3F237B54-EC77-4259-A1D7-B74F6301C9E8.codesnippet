@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>localized</string>
+	<string>pnc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(@"&lt;#key#&gt;", @"&lt;#comment#&gt;")</string>
+	<string>@property (nonatomic, copy) &lt;# class_name #&gt; *&lt;# variable_name #&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6AEE2C1D-7242-442D-9620-058DB7899FE8</string>
+	<string>3F237B54-EC77-4259-A1D7-B74F6301C9E8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLocalizedString</string>
+	<string>Property (nonatomic, copy)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
