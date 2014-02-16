@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>navinit</string>
+	<string>mainqueue</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:&lt;#(UIViewController *)#&gt;];</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+                    &lt;# code #&gt;
+                });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>604C8EC1-D01F-40B9-8C78-B6626F59E38A</string>
+	<string>53138207-6AD7-4F2B-B4D8-5486F1DD0D7C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates a block to run on main queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UINavigationController init</string>
+	<string>Dispatch to main Queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
