@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jgdeprecated</string>
+	<string>string</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__attribute__((deprecated("&lt;#reason#&gt;")))</string>
+	<string>@property (nonatomic, copy) NSString *&lt;# variable_name #&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>708256DB-47FF-4511-8BF4-B4C9D3C1DB33</string>
+	<string>3F61993F-1682-4F5B-B71E-44A0E0F6A136</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>adding deprecation to interface lines</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Deprecated</string>
+	<string>String Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,30 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>updateconstraints</string>
+	<string>setupconstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)updateConstraints {
-    [super updateConstraints];
-    
-    NSNumber *&lt;#metric1#&gt; = @(&lt;#metric1#&gt;);
+	<string>    NSNumber *&lt;#metric1#&gt; = @(&lt;#metric1#&gt;);
     NSString *format;
     NSArray *constraints;
     NSDictionary *views = NSDictionaryOfVariableBindings(&lt;#views#&gt;);
-    NSDictionary *metrics = NSDictionaryOfVariableBindings(&lt;#NSNumber#&gt;);
-    
-}</string>
+    NSDictionary *metrics = NSDictionaryOfVariableBindings(&lt;#NSNumber#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DFCB88E6-6D4C-45A6-B95F-D36926DFD53C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>template for the update constratints method for a view</string>
+	<string>template for the top of a setup constraints method for a view</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Update Constraints</string>
+	<string>Setup Constraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
