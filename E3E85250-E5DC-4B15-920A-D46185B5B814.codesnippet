@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pstring</string>
+	<string>pblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;# variable #&gt;;</string>
+	<string>@property (nonatomic, copy) &lt;#return#&gt;(^&lt;#blockName#&gt;)(&lt;#params#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EC3F3734-D597-4825-BC8B-D4E4AEAA17BB</string>
+	<string>E3E85250-E5DC-4B15-920A-D46185B5B814</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>String properties</string>
+	<string>A property that's a block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property (nonatomic, copy) NSString *</string>
+	<string>Block Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

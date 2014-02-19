@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>string</string>
+	<string>expeq</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;# variable_name #&gt;;</string>
+	<string>expect(&lt;#sut#&gt;).to.equal(&lt;#expected#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3F61993F-1682-4F5B-B71E-44A0E0F6A136</string>
+	<string>F62342A6-72C1-4652-8707-DCD6CDA015CD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Expecta - expect to be equal</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>String Property</string>
+	<string>Expecta equal</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
