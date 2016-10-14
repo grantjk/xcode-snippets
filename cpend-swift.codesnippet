@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tt</string>
+	<string>cpend</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)testThatIt&lt;#Does something#&gt;</string>
+	<string>it("should &lt;#expected behavior#&gt;", PENDING)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2FFF0E4F-C786-4D98-8AAD-7AA225CF85E6</string>
+	<string>858980E1-6F1F-4165-9501-F05F737D49F3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>test that it....</string>
+	<string>Cedar pending example block for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TestThatit</string>
+	<string>Cedar pending example - Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
 	<integer>2</integer>
+	<key>isCedarSnippet</key>
+	<true/>
 </dict>
 </plist>

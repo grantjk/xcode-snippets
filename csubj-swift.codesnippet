@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tt</string>
+	<string>csubj</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)testThatIt&lt;#Does something#&gt;</string>
+	<string>subjectAction { &lt;#action#&gt; }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2FFF0E4F-C786-4D98-8AAD-7AA225CF85E6</string>
+	<string>E3B41D04-9235-4952-854C-C6851F5213A5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>test that it....</string>
+	<string>Cedar subject action block for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TestThatit</string>
+	<string>Cedar subject action - Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
